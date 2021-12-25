@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+header{
+    display: flex;
+    align-items:center;
+    padding: 40px 120px 0 120px;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap:79px ;
+}
+
+nav a{
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons .img-background{
+    background-color: #fff;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0px 11px 30px 8px rgba(90, 0, 0, 0.11);
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 120px;
+    gap: 20px;
+}
+
+.first-section img{
+    width: 600px;
+}
+
+.first-section .info h1{
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+}
+
+.price {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.price div{
+    padding: 10px 26px;
+    background-color: #fff;
+}
+
+.price a{
+    padding: 20px 32px;
+    background: #333438;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 20px 33px -5px rgba(0, 0, 0, 0.29);
+}
+
+/* IKKINCHI SECTION */
+
+.second-section{
+    padding: 80px 120px;
+}
+
+.second-section h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 34px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box-container div{
+    width: 490px;
+    height: 395px;
+    font-size: 34px;
+    position: relative;
+}
+
+.blue-div{
+    background-color: #BAC7D6; 
+}
+
+.blue-div p{
+    position: absolute;
+    top:50%;
+    right: 8px;
+    transform: translate(-0, -50%);
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.blue-div img{
+    position: absolute;
+    bottom: 19px;
+    left: -100px;
+}
+
+.red-div{
+    background-color: #FFCCCE;
+}
+
+.red-div img{
+    position: absolute;
+    bottom: 19px;
+    right: -70px;
+}
+
+.red-div p{
+    position: absolute;
+    top:50%;
+    left: 8px;
+    transform: translate(-0, -50%);
+    text-align: right;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.header h2{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    font-size: 34px;
+}
+
+.images-box{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 25px;
+}
+
+.images-box .box{
+    width: 281px;
+    height: 356px;
+    background-color: rgb(248, 250, 250);
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.box .text-box{
+    padding: 17px 12px;
+}
+
+.box .name-color{
+   padding: 17px 12px 0 12px; 
+}
+
+.box .name-color h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.name-color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colors{
+    display: flex;
+    gap: 5px;
+} 
+
+.color{
+    width: 19px;
+    height: 18px;
+    background-color: rgb(29, 28, 28);
+    border-radius: 100%;
+     
+}
+
+
+.box .text-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .text-box div{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.box .text-box a{
+    text-decoration: none;
+    color: white;
+    padding:9px 22px;
+    background: #333438;
+    font-size: 14px;
+    line-height: 16px;
+    box-shadow: 0px 20px 33px -5px rgba(0, 0, 0, 0.29);
+
+}
+
+.button{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.button button{
+    Width:167px;
+    Height:66px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    box-shadow: 0px 20px 33px -5px rgba(0, 0, 0, 0.29);
+}
+
+/* 3- SECTION */
+
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    margin-top: -100px;
+    gap: 46px;
+    height: 610.73px;
+}
+
+
+.section-3 .text-div h1{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    padding-bottom: 31px;
+}
+
+.section-3 .text-div p{
+    font-size: 22px;
+    line-height: 26px;
+    color: #6D6D6D;
+}
+
+.section-3 .img-div img{
+    width: 600px;
+}
+
+
+/* 4-SECION */
+
+.section-4{
+    width: 1184px;
+    height: 633px;
+    background-color: #BAC7D6;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.left-text h1{
+    padding:33px 0 0 85px;
+    font-weight: bold;
+    font-size: 99px;
+    line-height: 116px;
+}
+
+.left-text h2{
+    padding-left:85px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+}
+
+.right-input{
+    padding: 108px 18px;
+    position: relative;
+}
+
+.section-4 .rigth-input p{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 26px;
+}
+
+.right-input input{
+    width: 250px;
+    height: 45px;
+    margin-top: 33px;
+    margin-right: 150px;
+}
+
+.right-input a{
+    width: 120px;
+    height: 55px;
+    text-decoration: none;
+    color:white;
+    background: #333438;
+    box-shadow: 0px 20px 33px -5px rgba(0, 0, 0, 0.29);
+    padding: 20px;
+    position: absolute;
+    top: 27.5%;
+    right:16%
+}
+.img-last{
+    position:absolute;
+    left: 180px;
+    top: 3695px;
+}
+
+.img-last img{
+    width: 900px;
+}
+
+
